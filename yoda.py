@@ -34,7 +34,7 @@ while True:
     print("Algilanan Obje : " , x) # x kordinatını yazdırıyoruz
     x = 0
     #ekranda gosteriyoruz
-    cv2.imshow('Yuz detect', frame)
+    cv2.imshow('hand detect', frame)
     #q tusu cikis
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
