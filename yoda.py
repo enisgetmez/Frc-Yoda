@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import imutils
 import serial
+from networktables import NetworkTables
 ########Roborio ile haberleşme#########
 NetworkTables.initialize(server='roborio-6025-frc.local') # Roborio ile iletişim kuruyoruz
 table = NetworkTables.getTable("Vision") # table oluşturuyoruz
